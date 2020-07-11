@@ -1,0 +1,14 @@
+name: Prep4
+channels:
+        - conda-forge
+
+dependencies:
+        - python=3.6
+        - numpy
+        - opencv
+  - pip
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
