@@ -5,4 +5,10 @@ channels:
 dependencies:
         - python=3.6
         - numpy
-        - pip
+        - opencv
+  - pip
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
