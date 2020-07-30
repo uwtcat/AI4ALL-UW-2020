@@ -1,0 +1,54 @@
+# Classifier 0608
+mlp_clf = MLPClassifier(
+    hidden_layer_sizes=(64, 32, 16), 
+    solver='sgd', 
+    activation='relu',
+    max_iter=1000
+)
+
+Accuracy: 0.9908571428571429
+
+
+# Classifier 0618
+mlp_clf = MLPClassifier(
+    hidden_layer_sizes=(145,63,21), 
+    solver='sgd', 
+    activation='tanh',
+    max_iter=500
+)
+
+Accuracy: 0.9750857142857143
+
+# Classifier 0619
+
+mlp_clf = MLPClassifier(
+    hidden_layer_sizes=(64,32,16), 
+    solver='sgd', 
+    activation='logistic',
+    max_iter=1000
+)
+
+
+Accuracy: 0.10942857142857143
+
+# Classifier 0620
+
+mlp_clf = MLPClassifier(
+    hidden_layer_sizes=(196,72,36,18), 
+    solver='sgd', 
+    activation='relu',
+    max_iter=1000
+)
+
+Accuracy: 0.9727428571428571
+
+# Classifier 0708
+
+mlp_clf = MLPClassifier(
+    hidden_layer_sizes=(98,49,24), 
+    solver='sgd', 
+    activation='relu',
+    max_iter=1000
+)
+
+Accuracy:0.9729142857142857
